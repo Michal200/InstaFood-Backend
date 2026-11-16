@@ -139,6 +139,13 @@ The service provides secure authentication, comprehensive recipe lifecycle manag
 
 ---
 
+
+### 6. Media & File Uploads
+| Method | Endpoint | Auth | Description |
+| :--- | :--- | :---: | :--- |
+| `POST` | `/api/upload` | No | Upload local media image file (saved to static `/uploads`) |
+| `POST` | `/api/users/upload-profile` | **Yes** | Upload user profile picture directly to Cloudinary CDN |
+
 ## 🚀 Getting Started
 
 ### Prerequisites
